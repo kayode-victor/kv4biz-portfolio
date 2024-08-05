@@ -7,6 +7,7 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import { FaDownload } from "react-icons/fa";
 export const BentoGrid = ({
   className,
   children,
@@ -54,6 +55,14 @@ export const BentoGridItem = ({
   const handleCopy = () => {
     navigator.clipboard.writeText("vk4biz@gmail.com");
     setCopied(true);
+  };
+  const handleDownloadCV = () => {
+    const link = document.createElement("a");
+    link.href = "./cv.pdf";
+    link.download = "Kayode_Victor_CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
   return (
     <div
@@ -169,6 +178,17 @@ export const BentoGridItem = ({
                   </span>
                 ))}
               </div>
+            </div>
+          )}
+          {id === 4 && (
+            <div className="mt-2">
+              <MagicButton
+                title="Download CV"
+                position="right"
+                icon={<FaDownload />}
+                handleClick={handleDownloadCV}
+                otherClasses={`bg-[#161A31]`}
+              />
             </div>
           )}
           {id === 6 && (
