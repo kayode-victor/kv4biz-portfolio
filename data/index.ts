@@ -85,37 +85,38 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Interactive 3D Solar System Explorer",
-    des: "Dive into an immersive 3D journey across the solar system, built with advanced Three.js techniques.",
+    title: "Employee Management System",
+    des: "A full-featured web app for managing employees, integrating robust backend logic with sleek frontend design.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/kayode-victor",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/node.svg", "/pg.svg"],
+    link: "https://github.com/kv4biz/employee-leave-system",
   },
   {
     id: 2,
-    title: "Seamless Video Conferencing App",
-    des: "Revolutionize remote communication with a next-gen video conferencing app designed for clarity and ease.",
+    title: "Eduvate – Tutoring Info Website",
+    des: "An informative and responsive tutoring website built to showcase services and connect learners with educators.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/kayode-victor",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://github.com/kayode-victor/Tutoring-service",
   },
   {
     id: 3,
-    title: "AI-Powered Image Editing Platform",
-    des: "Experience the future of graphic design with an AI-driven SaaS platform that streamlines creative workflows.",
+    title: "BrevAI – Article Summarization with GPT-4",
+    des: "A smart web app that leverages OpenAI GPT-4 to summarize long-form articles for efficient reading.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/kayode-victor",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/api.svg", "/openai.svg"],
+    link: "https://github.com/kv4biz/brev-ai",
   },
   {
     id: 4,
-    title: "3D Animated Apple iPhone Showcase",
-    des: "Crafted a visually stunning 3D website for the Apple iPhone 15 Pro, integrating cutting-edge animations and effects.",
+    title: "Transactly – Multi-Bank Transaction Tracker",
+    des: "A financial dashboard that helps users monitor and categorize transactions across multiple banks securely.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/kayode-victor",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/appwrite.svg", "/sentry.svg"],
+    link: "https://github.com/kv4biz/transactly",
   },
 ];
+
 
 export const testimonials = [
   {
