@@ -31,7 +31,7 @@ const Hero = () => {
             className="text-center text-[27px] md:text-[38px] lg:text-[50px]"
           />
           <p className="text-center font-light md:tracking-wider lg:tracking-widest mb-4 text-sm md:text-md lg:text-lg">
-            Hi! I&apos;m Kayode Victor, a Next.js Frontend developer.
+            Hi! I&apos;m Kayode Victor, a Next.js Web Developer.
           </p>
           <a href="#about">
             <MagicButton
