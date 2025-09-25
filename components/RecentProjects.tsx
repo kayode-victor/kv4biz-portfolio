@@ -1,7 +1,6 @@
 import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/Pin";
-import Link from "next/link";
 
 const RecentProjects = () => {
   return (
@@ -17,7 +16,7 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer title={item.link} href={item.link}>
-              <Link href={item.link} className="relative flex items-center justify-center sm:w-96 w-[90vw] overflow-hidden h-[25vh] lg:h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-96 w-[90vw] overflow-hidden h-[25vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
@@ -56,7 +55,7 @@ const RecentProjects = () => {
                     </div>
                   ))}
                 </div>
-              </Link>
+              </div>
             </PinContainer>
           </div>
         ))}
